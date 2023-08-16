@@ -38,7 +38,7 @@ export default function HomePage() {
     setFilteredCharacters(filtered);
   }, [searchTerm, characters]);
 
-  const displayedCharacters = filteredCharacters.slice(0, 28);
+  const displayedCharacters = filteredCharacters.slice(0, 24);
 
   return (
     <div>
