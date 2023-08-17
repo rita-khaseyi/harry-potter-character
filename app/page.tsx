@@ -45,7 +45,7 @@ export default function HomePage() {
       <Navbar setSearchTerm={setSearchTerm} />
 
       <main className="bg-cover h-1500" style={{ backgroundImage: "url('/assets/har.jpg')" }}>
-        <h1 className="text-3xl font-semibold text-white text-center sm:mb-8 md:text-4xl lg:text-5xl">CHARACTERS</h1>
+        <h1 className="text-3xl font-semibold text-white text-center sm:mb-8 md:text-4xl lg:text-5xl">Harry Potter Characters</h1>
 
         <div className="flex flex-wrap justify-center gap-4">
           {displayedCharacters.map((item) => (
